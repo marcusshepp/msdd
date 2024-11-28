@@ -1,4 +1,4 @@
-export default async function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
     eleventyConfig
         .addPassthroughCopy('src/styles/main.css');
     return {
